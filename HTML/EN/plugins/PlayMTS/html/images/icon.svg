@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+
+  <!-- Background -->
+  <circle cx="64" cy="64" r="60" fill="#15803D"/>
+
+  <!-- Page with folded corner -->
+  <path d="M28 22 H56 L76 42 V102 H28 Z M56 22 V42 H76"
+        fill="none" stroke="#FFFFFF" stroke-width="4"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Label: an outline in the background color separates it from the page -->
+  <rect x="44" y="64" width="56" height="30" rx="6"
+        fill="#FFFFFF" stroke="#15803D" stroke-width="5" paint-order="stroke"/>
+  <text x="72" y="86" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold"
+        fill="#15803D">MTS</text>
+</svg>

@@ -1,0 +1,10 @@
+# String file for PlayMTS plugin
+
+PLUGIN_PLAYMTS
+	EN	Play MTS
+
+PLUGIN_PLAYMTS_DESC
+	EN	Play the audio of MPEG transport stream files, with tags read by ffprobe like PlayAVI, the Discogs release id as album id and scanner-safe registration
+
+MTS
+	EN	MPEG transport stream (.ts, .m2ts, .mts)

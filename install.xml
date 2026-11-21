@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<extension>
+    <name>PLUGIN_PLAYMTS</name>
+    <module>Plugins::PlayMTS::Plugin</module>
+    <version>1.0</version>
+    <description>PLUGIN_PLAYMTS_DESC</description>
+    <creator>nicos</creator>
+    <defaultState>enabled</defaultState>
+    <importmodule>Plugins::PlayMTS::Importer</importmodule>
+    <icon>plugins/PlayMTS/html/images/icon.svg</icon>
+    <type>2</type>
+    <targetApplication>
+        <id>SlimServer</id>
+        <minVersion>7.7</minVersion>
+        <maxVersion>*</maxVersion>
+    </targetApplication>
+</extension>
